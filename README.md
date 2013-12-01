@@ -12,6 +12,7 @@ include "http://api.kadirov.pp.ua/site/user.php";
 include "http://api.kadirov.pp.ua/site/static.php";
 
 and in page content insert:
+<code>
 <?php
 if  ($user){
 print "Welcome back, " $user "!";
@@ -20,3 +21,4 @@ print "You can <a href='http://api.kadirov.pp.ua/site/logout.php' target='_blank
 print "Sorry, but i don't know who are you! Please, <a href='http://api.kadirov.pp.ua/site/login.php' target='_blank'>Login</a>";
 }
 ?>
+</code>
