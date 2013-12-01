@@ -8,8 +8,8 @@ servers in Paris datacenter....
 Using auth api
 ===
 It's simple! Just write this code in the header of php content:
-include "http://api.kadirov.pp.ua/site/user.php";
-include "http://api.kadirov.pp.ua/site/static.php";
+<code>include "http://api.kadirov.pp.ua/site/user.php";</code>
+<code>include "http://api.kadirov.pp.ua/site/static.php";</code>
 
 and in page content insert:
 <code><?php</code>
